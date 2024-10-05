@@ -1,0 +1,105 @@
+/* App.css */
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: rgb(0, 0, 32);
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.App-header, .App-footer {
+  background-color: rgb(0, 0, 64);
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.App-header {
+  top: 0;
+  height: 60px;
+}
+
+.App-footer {
+  bottom: 0;
+  height: 40px;
+}
+
+.App-body {
+  flex: 1;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.algorithm-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+}
+
+.algorithm-card {
+  cursor: pointer;
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(0, 0, 48);
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.algorithm-card img {
+  width: 550px;
+  height: 220px;
+  object-fit: contain;
+}
+
+.algorithm-card:hover {
+  transform: scale(1.05);
+}
+
+.algorithm-card p {
+  margin-top: 10px;
+  color: white;
+  font-size: 16px;
+}
+
+.selected-algorithm {
+  margin-top: 20px;
+  font-size: 18px;
+  color: lightgreen;
+}
+
+.visualize-button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: rgb(0, 0, 64); 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.visualize-button:hover {
+  background-color: rgb(0, 0, 80); 
+}
+
+.button{
+  display: inline-block;
+  background: rgb(0, 0, 80);
+  border-radius: 4px;
+  font-size: 14px;
+  color: white;
+  padding: 8px 12px;
+  cursor: pointer;   
+}
+
+.linker{
+  color: white;
+  font-size: 20px;
+}
