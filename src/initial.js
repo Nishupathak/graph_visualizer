@@ -117,7 +117,7 @@ function App() {
       </main>
 
       <footer className="App-footer">
-        <p>&copy; Created by Teesha and Kanishka 2024 </p>
+        <p>&copy; Created by Nishu 2024 </p>
       </footer>
     </div>
 
